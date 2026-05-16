@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Love n' Grill",
+    "slug": "love-n-grill",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e85d04"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lovengrill.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#e85d04"
+      },
+      "package": "com.lovengrill.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#e85d04",
+          "image": "./assets/splash.png",
+          "imageWidth": 200
+        }
+      ]
+    ]
+  }
+}
